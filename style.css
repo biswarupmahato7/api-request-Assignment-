@@ -1,0 +1,48 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+html,body{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: wheat;
+  
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  
+} 
+
+#card{
+  /* height: 400px ;
+  width: 400px; */
+  border: 5px solid wheat;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+  
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  
+}
+
+#profile{
+
+  height: 400px ;
+  width: 400px;
+  border-radius: 20px;
+}
+
+#flw{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
